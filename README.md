@@ -14,6 +14,11 @@
 
 ![screenshot](./src/assets/greeting.png)
 
+
+## Link to the back end
+
+[Hello Rails back end](https://github.com/thecodechaser/hello-rails-back-end)
+
 ## Built With
 
 - HTML
