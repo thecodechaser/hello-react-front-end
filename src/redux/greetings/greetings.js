@@ -13,7 +13,7 @@ const fetchGreeting = (payload) => ({
 const initialState = [];
 
 export const fetchGreetingApi = () => async (dispatch) => {
-  const returnValue = await Axios.get('/v1/greetings');
+  const returnValue = await Axios.get('http://localhost:3000/v1/greetings');
   const greeting = returnValue.data.data.greeting.message
   console.log(greeting)
   dispatch(fetchGreeting(greeting));
