@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Header = ()=>{
+const Header = () => {
   const links = [
     {
       text: 'Home',
@@ -12,7 +12,7 @@ const Header = ()=>{
       text: 'Greeting',
       path: '/greeting',
       id: 1,
-    }
+    },
   ];
   return (
     <header className="flex justify-between my-4 mx-12">
@@ -30,7 +30,7 @@ const Header = ()=>{
         </ul>
       </nav>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;
